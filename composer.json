@@ -1,6 +1,8 @@
 {
     "name": "bllim/laravel-to-jquery-validation",
-    "description": "",
+    "description": "This package makes validation rules defined in laravel work client-side by converting to jquery validation rules. It uses Jquery Validation Plugin. It also allows to use laravel validation messages so you can show same messages for both sides.",
+    "keywords" : ["laravel4","laravel","jquery","validation","laravel validation","laravel validation converter","laravel to jquery validation", "laravel validation to jquery validation"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Bilal Gultekin",
