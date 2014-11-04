@@ -36,7 +36,7 @@ Composer will download the package. After the package is downloaded, open `app/c
 Also you need to publish configuration file and assets by running the following Artisan commands.
 ```php
 $ php artisan config:publish bllim/laravel-to-jquery-validation
-$ php artisan assets:publish bllim/laravel-to-jquery-validation
+$ php artisan asset:publish bllim/laravel-to-jquery-validation
 ```
 
 ### Usage
