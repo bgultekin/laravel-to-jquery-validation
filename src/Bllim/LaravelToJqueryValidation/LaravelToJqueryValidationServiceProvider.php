@@ -23,8 +23,9 @@ class LaravelToJqueryValidationServiceProvider extends ServiceProvider {
 		
 		$this->app->bindShared('form', function($app)
 		{
-				$form = new FormBuilder($app->make('html'), $app->make('url'), $app->make('session.store')->getToken());
-				return $form->setSessionStore($app->make('session.store'));
+			$converter = \Config::get('laravel-to-jquery-validation::converter');
+			$form = new $converter($app->make('html'), $app->make('url'), $app->make('session.store')->getToken());
+			return $form->setSessionStore($app->make('session.store'));
 		});
 
 
