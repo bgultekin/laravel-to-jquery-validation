@@ -120,7 +120,7 @@ View side
     </head>
     <body>
     
-        {{ Form::open('url'=>'create', 'method'=>'post') }}
+        {{ Form::open(array('url'=>'create', 'method'=>'post')) }}
         {{ Form::text('name') }}
         {{ Form::text('username') }}
         {{ Form::email('email') }}
