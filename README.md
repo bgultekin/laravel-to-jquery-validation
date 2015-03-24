@@ -1,3 +1,14 @@
+### This package is no more maintained. 
+### Look [Laravalid](https://github.com/bllim/laravalid) for same function and more features:
+- Laravel 4 and Laravel 5 support
+- Multi plugin support
+- Extendible
+- Remote rules support etc.
+ 
+
+---
+
+
 ## Laravel to Jquery Validation
 
 **About**
